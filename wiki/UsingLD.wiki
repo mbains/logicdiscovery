@@ -1,0 +1,12 @@
+#summary How to use Logic Discovery
+
+= Client software =
+
+To get something useful you'll need logic analyzer client running on PC.
+Theoretically any SUMP compatible app will do. I'm using [http://www.lxtreme.nl/ols/ Logic Sniffer]
+
+= Board =
+
+By default LD uses port D as it's data source. Triggers can be configured by client software to use any edge on any pin, sampling can also be triggered by pressing user button (blue one).
+
+STM32F4Discovery board powered from STLink port (mini-USB), but in order to use LD you'll have to connect it to your PC using micro-USB port. To power board from micro-USB and get rid of a second cable connect PA9 pin to 5V pin on P2 connector. PA9 is wired directly to the micro-USB's VBus, and 5V pin is wired to the LDO's input.
