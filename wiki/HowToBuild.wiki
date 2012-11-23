@@ -1,0 +1,11 @@
+#summary Instructions on how to build LogicDiscovery
+
+= What you'll need =
+
+ * ST's peripheral library and USB library. [http://www.st.com/internet/mcu/product/252148.jsp Find it here]
+ * GCC cross-compiler, e.g. [http://www.yagarto.de/ Yagartoo]
+
+= Tuning makefile =
+
+ Set TCHAIN variable to prefix of your toolchain.
+ Set STLIBS variable to location where you have extracted ST's libs.
