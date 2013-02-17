@@ -1,0 +1,4 @@
+LogicDiscovery/*.map
+LogicDiscovery/*.sym
+LogicDiscovery/.dep
+LogicDiscovery/.settings
